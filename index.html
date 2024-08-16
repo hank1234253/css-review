@@ -7,13 +7,32 @@
     <title>網頁名稱</title>
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     <!-- 網站圖標 -->
+     <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: cornsilk;
+        }
+        #h2{
+            color: red;
+        }
+        .header{
+            color:green;
+        }
+
+        table,tr,td,th{
+            border-collapse: collapse;
+            border: 1px,solid,black;
+        }
+     </style>
 </head>
 
 <body>
     <h1 title="title">滑鼠移上去顯示title h1</h1>
-    <h2>h2</h2>
-    <h3>h3</h3>
-    <h4>h4</h4>
+    <h2 id="h2">h2</h2>
+    <h3 class="header">h3</h3>
+    <h4 class="header">h4</h4>
     <h5>h5</h5>
     <h6>h6</h6>
     <h7>h7</h7>
@@ -47,13 +66,6 @@
     <ins>Inserted text插入的文字</ins><br>
     <sub>Subscript text下標文字</sub><br>
     <sup>Superscript text上標文字</sup><br>
-
-    <style>
-        table,tr,td,th{
-            border-collapse: collapse;
-            border: 1px,solid,black;
-        }
-    </style>
     <table>
         <tr height="100px">
             <th width="150px">表格欄位的標題</th>
